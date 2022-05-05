@@ -1,0 +1,42 @@
+body, html{
+    margin: 0;
+      padding: 0;
+      min-height: 100vh;
+        max-width: 869px;
+    }
+    #navbar{
+      position: fixed;
+      left: 30px;
+      top: 0;
+      height: 100%;
+      font-size: 20px;
+      background-color: white;
+    }
+    .nav-link{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      left: 3px;
+      text-decoration: none;
+      color: black;
+    }
+    .hrlink{
+    margin: 0px;
+      width: 309px;
+    }
+    .vline{
+      position: absolute;
+      left: 310px;
+      bottom: 10px;
+      border-left: 1px solid grey;
+      height: 100vh;
+    }
+    .main-section{
+      position: relative;
+      left: 350px;
+      color: black;
+    }
+    @media (max-width: 800px){
+      .mainsection{
+        
+      }
